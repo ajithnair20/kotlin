@@ -209,7 +209,7 @@ abstract class KotlinIrLinker(
                 }
                 moduleDeserializationState.enqueueFile(fileDeserializer)
             } else if (strategy.explicitlyExported) {
-                moduleDeserializationState.enqueueFile(fileDeserializer)
+                enqueueModule()
             }
 
             return file
