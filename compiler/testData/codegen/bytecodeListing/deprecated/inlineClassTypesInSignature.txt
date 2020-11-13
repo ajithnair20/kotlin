@@ -9,3 +9,18 @@ public abstract class A {
     public synthetic deprecated abstract method setHidden-7apg3OU(p0: byte): void
     public deprecated abstract method setWarn-7apg3OU(p0: byte): void
 }
+
+@kotlin.Metadata
+public final class I$DefaultImpls {
+    // source: 'inlineClassTypesInSignature.kt'
+    public synthetic deprecated static @kotlin.Deprecated method getId$annotations(p0: java.lang.Object): void
+    public deprecated static method getId(@org.jetbrains.annotations.NotNull p0: I, p1: java.lang.Object): java.lang.Object
+    public final inner class I$DefaultImpls
+}
+
+@kotlin.Metadata
+public interface I {
+    // source: 'inlineClassTypesInSignature.kt'
+    public deprecated abstract method getId(p0: java.lang.Object): java.lang.Object
+    public final inner class I$DefaultImpls
+}
